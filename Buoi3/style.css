@@ -1,0 +1,72 @@
+input[type="number"] {
+    -webkit-appearance: textfield;
+    /* Chrome, Safari */
+    -moz-appearance: textfield;
+    /* Firefox */
+    appearance: textfield;
+
+    /* Ẩn các nút tăng/giảm (spin buttons) */
+    -moz-appearance: textfield;
+    /* Firefox */
+    -webkit-inner-spin-button: none;
+    -webkit-outer-spin-button: none;
+    margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: rgb(0, 0, 247);
+}
+
+input {
+    padding: 15px;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+
+button {
+    background-color: aquamarine;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#result,
+#result1 {
+    color: peru;
+    font-weight: bold;
+}
+
+.result {
+    font-weight: bold;
+}
