@@ -14,7 +14,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ## 💻 Installation
 
 ```bash
-git clone https://github.com/yourname/air-quality-monitor.git
+git clone [url](https://github.com/yourname/air-quality-monitor.git)
 cd air-quality-monitor
 npm install
 npm run dev
