@@ -11,7 +11,6 @@ function changeColor() {
     box.style.backgroundColor = "orange";
 }
 
-
 // BT3
 function addChild() {
     const input = document.getElementById("todoInput");
@@ -25,10 +24,10 @@ function addChild() {
         button.textContent = "Xóa";
         button.onclick = () => {
             removeToDo(button);
-        }
+        };
         li.appendChild(button);
         ul.appendChild(li);
-        input.value = '';
+        input.value = "";
     }
 }
 
@@ -38,18 +37,21 @@ function removeToDo(btn) {
 }
 
 const btn3 = document.getElementById("btn3");
-btn3.addEventListener('click', addChild);
+btn3.addEventListener("click", addChild);
 
 // BT4
 
 const img = document.getElementById("myImage");
 function changeImage() {
-    img.setAttribute("src", "https://www.svgrepo.com/show/452030/avatar-default.svg");
+    img.setAttribute(
+        "src",
+        "https://www.svgrepo.com/show/452030/avatar-default.svg"
+    );
 }
 
 // BT5
 
 function toggleHighlight() {
-    const p  = document.getElementById("toggleClassText");
+    const p = document.getElementById("toggleClassText");
     p.classList.toggle("highlight");
 }

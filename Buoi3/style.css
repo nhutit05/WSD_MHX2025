@@ -58,15 +58,17 @@ button {
 }
 
 button:hover {
-    background-color: red;
+    background-color: greenyellow;
+    font-weight: bold;
 }
 
 #result,
 #result1 {
-    color: peru;
-    font-weight: bold;
+    color: rgb(170, 5, 5);
+    font-weight: bolder;
 }
 
 .result {
-    font-weight: bold;
+    font-weight: bolder;
+    color: rgb(170, 5, 5);
 }
