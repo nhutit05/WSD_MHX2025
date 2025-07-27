@@ -1,0 +1,17 @@
+.btn {
+    display: block;
+    width: fit-content;
+    background: blue;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    /* box-shadow:  2px 5px rgba(0, 0, 0, 0.3); */
+    font-weight: bolder;
+}
