@@ -1,0 +1,17 @@
+.input {
+    display: block;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+    /* background-color: beige; */
+    margin: 10px;
+    color: red;
+    outline: none;
+    transition: box-shadow 0.2s ease;
+    box-shadow:  2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input:focus {
+    
+    font-weight: bold;
+}
