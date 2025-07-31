@@ -1,8 +1,8 @@
 
-## 🧾 Quản lý chi tiêu
+# 🧾 Quản lý chi tiêu
 
 
-## Giới thiệu
+## 📌 Giới thiệu
 Ứng dụng giúp người dùng ghi chép chi tiêu hàng ngày.
 
 ## 📌 Tính năng
