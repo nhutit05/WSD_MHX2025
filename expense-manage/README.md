@@ -1,9 +1,16 @@
 
 # 🧾 Quản lý chi tiêu
 
-
-## 📌 Giới thiệu
 Ứng dụng giúp người dùng ghi chép chi tiêu hàng ngày.
+
+## 📌 Mục tiêu dự án
+- Học cách xây dựng ứng dụng React đơn giản
+- Quản lý state bằng `useState` và `useEffect`
+- Thực hiện các thao tác **thêm / sửa / xoá dữ liệu (CRUD)**
+- Lưu dữ liệu trên trình duyệt bằng `localStorage`
+- Thiết kế giao diện đơn giản với **Tailwind CSS**
+
+---
 
 ## 📌 Tính năng
 - Ghi lại các khoản chi (tên, tiền, ngày)
@@ -12,12 +19,7 @@
 - Thêm, sửa, xóa khoản chi
 - Lưu dữ liệu bằng localStorage
 
-
-## 🖼️ Giao diện
-![alt text](image-3.png)
 ## 🚀 Cấu trúc thư mục
-![alt text](image-1.png)
-
 ```bash
 /src
     ├── /app
