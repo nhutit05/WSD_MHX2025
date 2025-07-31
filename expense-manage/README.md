@@ -18,6 +18,19 @@
 ## 🚀 Cấu trúc thư mục
 ![alt text](image-1.png)
 
+```bash
+/src
+    ├── /app
+        └── page.tsx
+    ├── /components
+        └── ExpenseForm.tsx
+        └── Expensetem.tsx
+        └── ExpenseList.tsx 
+    ├── /types
+        └── index.ts
+
+```
+
 ## 🚀 Cài đặt và chạy dự án
 ### Bước 1. Clone Project
 ```bash

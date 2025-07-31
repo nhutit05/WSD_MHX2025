@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <main className="bg-blue-50 max-w-xl mx-auto rounded-2xl p-10 mt-5">
-          <h1 className="text-2xl font-bold mb-4 text-center text-red-400">Quản lý chi tiêu</h1>
+          <h1 className="text-2xl font-bold mb-4 text-center text-red-400">📝 Quản lý chi tiêu</h1>
           <ExpenseForm onAdd={addExpense}/>
           <ExpenseList expenses={expenses} onDelete={deleteExpense} onUpdate={updateExpense}/>
           <div className="mt-4 font-semibold text-lg">
