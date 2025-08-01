@@ -21,15 +21,34 @@
 
 ## 🚀 Cấu trúc thư mục
 ```bash
-/src
-    ├── /app
-        └── page.tsx
-    ├── /components
-        └── ExpenseForm.tsx
-        └── Expensetem.tsx
-        └── ExpenseList.tsx 
-    ├── /types
-        └── index.ts
+└── expense-manage
+    ├── .gitignore
+    ├── README.md
+    ├── eslint.config.mjs
+    ├── next.config.ts
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── public
+        ├── file.svg
+        ├── globe.svg
+        ├── next.svg
+        ├── ui.png
+        ├── vercel.svg
+        └── window.svg
+    ├── src
+        ├── app
+        │   ├── favicon.ico
+        │   ├── globals.css
+        │   ├── layout.tsx
+        │   └── page.tsx
+        ├── components
+        │   ├── ExpenseForm.tsx
+        │   ├── ExpenseItem.tsx
+        │   └── ExpenseList.tsx
+        └── types
+        │   └── index.ts
+    └── tsconfig.json
 
 ```
 
